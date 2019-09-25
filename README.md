@@ -1,4 +1,4 @@
-### Instation
+## Installation
 ```
 yarn global add favi
 ```
