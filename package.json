@@ -1,0 +1,28 @@
+{
+  "name": "favi",
+  "version": "1.0.0",
+  "bin": {
+    "favi": "built/bin/favi.js"
+  },
+  "dependencies": {
+    "canvas": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.7"
+  },
+  "files": [
+    "built"
+  ],
+  "keywords": [
+    "canvas",
+    "favicon",
+    "generator"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "start": "tsc && node dist/index.js"
+  }
+}
